@@ -1,4 +1,8 @@
-for i in range(1, 101):
+x = int(input())
+
+
+
+for i in range(1, x+1):
     if i%15 == 0:
         print("fizz_buzz")
 
